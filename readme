@@ -1,0 +1,20 @@
+﻿/** compilation **/
+
+
+Pour compiler le code, il suffit de taper "make all" dans le terminal 
+
+
+/** exécution **/
+
+Pour avoir le modèle sans charge, il faut taper la commande suivante :
+
+./gen_cnst2_new  A data
+
+Pour avoir le modèle avec et sans charge, il faut taper la commande suivante : 
+
+./gen_cnst2_new  B data
+
+
+où data représente le fichier contenant la charge et la matrice d'adjacence
+
+- Les résultats sous le langage de balisage utile pour HULIS sont représentés dans le fichier solution
